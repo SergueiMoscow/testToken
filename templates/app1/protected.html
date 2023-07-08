@@ -1,0 +1,9 @@
+Title: {{ title }}<br>
+User: {{ username }}<br>
+Error: {{ error }}<br>
+<a href="{% url 'protected' %}">protected</a>
+{% if user.is_authenticated %}
+    <p>"Закрытая часть страницы"</p>
+{% else %}
+    <p>"Пользователь не ваторизован"</p>
+{% endif %}
