@@ -4,11 +4,11 @@
 - создано приложение app1
 - определены стандартные пути django проекта /accounts, /admin
 - определён путь '' со входом в views.main проекта
-- определены пути приложения: /protected1, /protected2
+- определен путь приложения: /app1/protected
 - создан класс TokenBackend с методом authenticate в файле testToken.
 - в settings.py определены AUTHENTICATION_BACKENDS
 - в settings.py прописан путь templates в корне проекта
-- выполнена миграцияс с созданием файла db.sqlite3
+- выполнена миграция с созданием файла db.sqlite3
 - созданы 2 суперпользователя.
 
 ## Для воспроизведения: 
